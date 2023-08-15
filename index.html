@@ -15,5 +15,10 @@
     <div class="phrase-container">
     <span id="phrase" class="phrase-text"></span>
 </div>
+    <script>
+    var phraseElement = document.getElementById("phrase");
+    var randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+    phraseElement.textContent = randomPhrase;
+</script>
 </body>
 </html>
