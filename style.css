@@ -5,6 +5,15 @@ body {
     animation: gradient 3s ease infinite;
 }
 
+.phrase-container {
+    text-align: center;
+}
+
+.phrase-text {
+    font-size: 30px;
+    color: white;
+}
+
 .yes-container {
     display: flex;
     justify-content: center;
